@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B065426F1CF414C200511441 /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065426E1CF414C200511441 /* StockTableViewCell.swift */; };
 		B0DE17F81CF3FCB900485170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE17F71CF3FCB900485170 /* AppDelegate.swift */; };
 		B0DE17FA1CF3FCB900485170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE17F91CF3FCB900485170 /* ViewController.swift */; };
 		B0DE17FD1CF3FCB900485170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DE17FB1CF3FCB900485170 /* Main.storyboard */; };
 		B0DE17FF1CF3FCB900485170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DE17FE1CF3FCB900485170 /* Assets.xcassets */; };
 		B0DE18021CF3FCB900485170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DE18001CF3FCB900485170 /* LaunchScreen.storyboard */; };
+		B0DE180E1CF3FD9600485170 /* StockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE180D1CF3FD9600485170 /* StockTableViewController.swift */; };
+		B0DE18101CF3FFD100485170 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE180F1CF3FFD100485170 /* EditTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B065426E1CF414C200511441 /* StockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
 		B0DE17F41CF3FCB900485170 /* stockBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stockBS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DE17F71CF3FCB900485170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0DE17F91CF3FCB900485170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		B0DE17FE1CF3FCB900485170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0DE18011CF3FCB900485170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0DE18031CF3FCB900485170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0DE180D1CF3FD9600485170 /* StockTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockTableViewController.swift; sourceTree = "<group>"; };
+		B0DE180F1CF3FFD100485170 /* EditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 		B0DE17EB1CF3FCB900485170 = {
 			isa = PBXGroup;
 			children = (
+				B065426E1CF414C200511441 /* StockTableViewCell.swift */,
 				B0DE17F61CF3FCB900485170 /* stockBS */,
 				B0DE17F51CF3FCB900485170 /* Products */,
 			);
@@ -57,6 +64,8 @@
 				B0DE17F71CF3FCB900485170 /* AppDelegate.swift */,
 				B0DE17F91CF3FCB900485170 /* ViewController.swift */,
 				B0DE17FB1CF3FCB900485170 /* Main.storyboard */,
+				B0DE180F1CF3FFD100485170 /* EditTableViewController.swift */,
+				B0DE180D1CF3FD9600485170 /* StockTableViewController.swift */,
 				B0DE17FE1CF3FCB900485170 /* Assets.xcassets */,
 				B0DE18001CF3FCB900485170 /* LaunchScreen.storyboard */,
 				B0DE18031CF3FCB900485170 /* Info.plist */,
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B065426F1CF414C200511441 /* StockTableViewCell.swift in Sources */,
+				B0DE180E1CF3FD9600485170 /* StockTableViewController.swift in Sources */,
+				B0DE18101CF3FFD100485170 /* EditTableViewController.swift in Sources */,
 				B0DE17FA1CF3FCB900485170 /* ViewController.swift in Sources */,
 				B0DE17F81CF3FCB900485170 /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +299,7 @@
 				B0DE18081CF3FCB900485170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
